@@ -1,0 +1,74 @@
+# https://retosdeprogramacion.com/
+'''*
+ * ¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?
+ * - Recuerda que todas las instrucciones de participación están en el
+ *   repositorio de GitHub.
+ *
+ * Lo primero... ¿Ya has elegido un lenguaje?
+ * - No todos son iguales, pero sus fundamentos suelen ser comunes.
+ * - Este primer reto te servirá para familiarizarte con la forma de participar
+ *   enviando tus propias soluciones.
+ *
+ * EJERCICIO:
+ * - Crea un comentario en el código y coloca la URL del sitio web oficial del
+ *   lenguaje de programación que has seleccionado.
+ * - Representa las diferentes sintaxis que existen de crear comentarios
+ *   en el lenguaje (en una línea, varias...).
+ * - Crea una variable (y una constante si el lenguaje lo soporta).
+ * - Crea variables representando todos los tipos de datos primitivos
+ *   del lenguaje (cadenas de texto, enteros, booleanos...).
+ * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+ *
+ * ¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y
+ * debemos comenzar por el principio.
+ '''
+
+# SITIO WEB DE PYTHON: https://www.python.org/
+
+# DIFERENTES FORMAS DE CREAR COMENTARIOS EN PYTHON:
+    # Comentario de una linea
+    '''
+    Comentario de
+    multiples lineas
+    '''
+    """
+    Otro comentario
+    de multiples
+    lineas
+    """
+    def persona(nombre):
+        """
+        Comentario tipo Docstring que se utiliza
+        para proporcionar documentacion dentro de una funcion,
+        clase o modulo.
+        
+        Args:
+            nombre: El nombre de la persona.
+        Returns:
+            Un saludo con el nombre de esa persona
+            
+        """
+        return f"Hola, {nombre}"
+    
+    # Comentario TODO, este indica que una tarea o funcion a un no esta completa.
+    # TODO: Implementar algo a la funcion persona
+
+# TIPOS DE VARIABLES:
+
+# variable
+soy_una_variable = 'Esto de aqui es una variable'
+
+# Constante
+SOY_UNA_CONSTANTE = 'En Python las constantes se declaran en mayusculas solo para indicar que es una constante'
+
+# DATOS PRIMITIVOS:
+entero = 123 # int(123)
+entero_negativo = -123 # int(-123)
+flotante = 3.14 # float(3.14)
+flotante_negativa = -3.14 # float(-3.14)
+booleano = True 
+booleano_negativo = False
+cadena_de_texto = "Hola soy una cadena de texto o string" # str(123)
+
+# MOSTRAR POR TERMINAL
+print("Hola,Pyhton!")
